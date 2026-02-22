@@ -1,0 +1,5 @@
+% layout 'default';
+<h2><%= $msg %></h2>
+<p>
+  <%= link_to 'Тут' => url_for('video') %> видео камеры
+</p>
